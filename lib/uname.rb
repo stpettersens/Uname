@@ -27,7 +27,7 @@ module Uname
 		rescue
 			output = IO.popen("ver")
 			output = output.readlines
-			output = output[0].chomp
+			output = output[1].chomp
 		end
 		return output
 	end

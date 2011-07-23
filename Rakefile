@@ -4,7 +4,7 @@ require 'echoe'
 require 'fileutils'
 
 name = 'uname'
-version = '1.0'
+version = '1.1'
 Echoe.new(name, version) do |p|
 	p.description = "Ruby interface to `uname` command."
 	p.url	      = "http://github.com/stpettersens/Uname"		
